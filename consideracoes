@@ -1,0 +1,19 @@
+Olá, boa noite
+
+Notei que apesar de pedir validação manual no caso do Flask, não encontrei tratativa para o caso de
+inconsistencia de dados.
+Acabei optando por adicionar uma linha ao dicionario onde mantive um "log" das mensagens e seus status.
+
+Como havia informado a Kaillane essa foi minha primeira vez usando RabbitMQ e Flask para algo profissional.
+
+Tentei me adequar à solicitação ao máximo.
+
+Notei que a porta do host do RabbitMQ passado nao foi informada. Optei por usar a porta padrão
+(Que obviamente nao deve ser usada publicamente em detrimento de Vulnerabilidades).
+
+Consegui fazer o proposto em tempo habil, porém nos testes ocorre um erro no metodo da classe do RabbitMQ que criei e
+acredito estar relacionado a questão da porta.
+
+Tentei fazer os testes usando o Postman, porém sem sucesso devido a questão do RabbitMQ.
+
+Fiz o codigo mais limpo que pude, instanciando ao maximo.
